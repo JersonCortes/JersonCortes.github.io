@@ -8,10 +8,12 @@
 }
 
 body {
-	display: flex;
 	margin: 0;
-	height: 100vh;
 	font-family: 'Aeonik Pro', sans-serif;
+}
+.container {
+	display: flex;
+	height: 100vh;
 }
 .column {
 	width: 50%;
@@ -47,3 +49,10 @@ left-column img {
 	margin: 5px;
 	background-color: #fff;
 }
+
+.center-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
