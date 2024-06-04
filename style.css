@@ -57,6 +57,7 @@ body, html {
 	height: calc(100% - 100px);
 	position: relative;
 	top: 100px;
+	overflow: hidden;
 }
 .main img {
 	width: 100%;
