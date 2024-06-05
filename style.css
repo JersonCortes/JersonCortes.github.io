@@ -17,7 +17,7 @@ body, html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 2rem;
+	padding-top: 0.5rem;
 	padding-bottom: 2rem;
 	padding-left: 5rem;
 	padding-right: 5rem;
@@ -42,8 +42,7 @@ body, html {
 	font-size: 40px;
 	font-weight: semi-bold;
 	font-weight: 600;
-	color: black;
-	-webkit-text-stroke: 2px white;
+	color: white;
 	padding: 5px 10px;
 }
 .header .nav a:hover {
@@ -65,14 +64,6 @@ body, html {
 	position: absolute;
 	top: 0;
 	z-index: 0;
-}
-.main .overlay {
-	width: 80%;
-	height: 80%;
-	border: 1px solid white;
-	filter: contrast(200%);
-	padding: 20px;
-	box-sizing: border-box;
 }
 .footer {
 	display: flex;
