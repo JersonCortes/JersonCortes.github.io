@@ -10,12 +10,15 @@ body, html {
 	padding: 0;
 	font-family: sans-serif;
 }
+p {
+	font-size:1em;
+}
 .header {
 	display: flex;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	width: 100%;
-	background-color: #000000;
+	background-color: #151515;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -33,23 +36,26 @@ body, html {
 }
 .container {
 	display: flex;
-	max-width: 60%;
+	max-width: 40%;
 	background-color: #fff;
 	margin-top: 5rem;
-	padding-left:20%;
+	padding-left:25%;
 }
 .text-container {
 	flex: 3;
 	padding: 20px;
+	padding-left:13rem;
 }
 .side-panel {
-	background-color: #f0f0f0;
+	background-color: #151515;
+	color:white;
 	display: flex;
 	flex: 1;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
 	padding: 20px;
+	position:fixed;
 }
 .side-panel img {
 	max-width: 100%;
@@ -59,4 +65,5 @@ body, html {
 }
 .side-panel .panel-text {
 	margin-bottom: 20px;
+	text-align:center;
 }
