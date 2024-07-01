@@ -6,7 +6,7 @@ body, html {
 	color:white;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start; /* Align items to the top */
+	align-items: flex-start; 
 	min-height: 100vh;
 	font-size:18px;
 }
@@ -15,11 +15,11 @@ p {
 	text-align: justify;
 }
 a {
-    color: #8DA3B9; 
+	color: #8DA3B9; 
 }
 .container {
 	display: flex;
-	max-width: 1200px; /* Adjust max-width as needed */
+	max-width: 1200px; 
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
@@ -45,4 +45,10 @@ a {
 .side-panel .panel-text {
 	margin-bottom: 20px;
 	text-align:center;
+}
+img {
+	max-width: 150px;
+	max-height: 150px;
+	width: auto; 
+	height: auto; 
 }
