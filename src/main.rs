@@ -6,16 +6,18 @@ mod components{
     pub mod blog;
 }
 
-use components::sidebar::Sidebar;
-use components::home_page::Main;
-use components::blog::Blog;
+use components::{
+    blog::Blog, 
+    home_page::Main, 
+    sidebar::Sidebar
+};
 
 #[component]
 fn App() -> impl IntoView {
-    let (value, set_value) = create_signal(true);
+    let (value, _set_value) = create_signal(false);
 
     view! {
-    	<div class="container">
+        <div class="container">
             <Sidebar/>
             <div class="text-container">
                 {move || if value(){
@@ -24,7 +26,7 @@ fn App() -> impl IntoView {
                     view! {<Blog/>}
                 }}
             </div>
-    	</div>
+    	  </div>
     }
 }
 

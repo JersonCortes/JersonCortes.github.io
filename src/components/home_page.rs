@@ -35,14 +35,11 @@ fn Projects() -> impl IntoView {
 #[component]
 fn Recent_blogs() -> impl IntoView {
     view! {
-        <h2>Currently Learning</h2>
+        <h2>Recent blogs</h2>
         <hr/>
         <h3>Kernel Development</h3>
         <p>
             Working on my first kernel patch.
-        </p>
-        <p>
-            Resources I have used so far: <a href="https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/">LFD103</a>, <a href="https://kernelnewbies.org/KernelHacking">Kernel newbies</a> 
         </p>
     }
 }
