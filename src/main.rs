@@ -20,11 +20,12 @@ fn App() -> impl IntoView {
         <div class="container">
             <Sidebar/>
             <div class="text-container">
-                {move || if value(){
-                    view! {<Main/>}
-                } else {
-                    view! {<Blog/>}
-                }}
+                <Main/>
+                //{move || if value(){
+                //    view! {<Main/>}
+                //} else {
+                //    view! {<Blog/>}
+                //}}
             </div>
     	  </div>
     }
