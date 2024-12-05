@@ -11,10 +11,10 @@ pub fn Sidebar() -> impl IntoView {
             </div>
             <div class="icons">
                 <a href="https://www.linkedin.com/in/jerson-cortes-p" target="_blank">
-                    <img src="/public/linkedin.svg" alt="LinkedIn"/>
+                    <img src="linkedin.svg" alt="LinkedIn"/>
                 </a>
                 <a href="https://github.com/JersonCortes" target="_blank">
-                    <img src="/public/github.svg" alt="Github"/>
+                    <img src="github.svg" alt="Github"/>
                 </a>
             </div>
         </div>
