@@ -1,0 +1,6 @@
+{
+  "name": "Rust Leptos",
+   "build": {
+       "dockerfile": "Dockerfile"
+   }
+}

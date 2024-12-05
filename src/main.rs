@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #[cfg(feature = "ssr")]
 #[tokio::main]
@@ -36,4 +37,41 @@ pub fn main() {
     // no client-side main function
     // unless we want this to work with e.g., Trunk for pure client-side testing
     // see lib.rs for hydration function instead
+=======
+use leptos::*;
+
+mod components{
+    pub mod sidebar;
+    pub mod home_page;
+    pub mod blog;
+}
+
+use components::{
+    blog::Blog, 
+    home_page::Main, 
+    sidebar::Sidebar
+};
+
+#[component]
+fn App() -> impl IntoView {
+    let (value, _set_value) = create_signal(false);
+
+    view! {
+        <div class="container">
+            <Sidebar/>
+            <div class="text-container">
+                <Main/>
+                //{move || if value(){
+                //    view! {<Main/>}
+                //} else {
+                //    view! {<Blog/>}
+                //}}
+            </div>
+    	  </div>
+    }
+}
+
+fn main() {
+    mount_to_body(|| view! { <App/> })
+>>>>>>> source/main
 }
