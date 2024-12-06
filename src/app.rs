@@ -1,5 +1,5 @@
 use leptos::prelude::*;
-use leptos_meta::{provide_meta_context, MetaTags, Stylesheet, Title};
+use leptos_meta::{provide_meta_context, MetaTags, Stylesheet, Title, Meta};
 use leptos_router::{
     components::{Route, Router, Routes},
     StaticSegment,
@@ -21,6 +21,7 @@ pub fn shell(options: LeptosOptions) -> impl IntoView {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <AutoReload options=options.clone() />
                 <MetaTags/>
+                <Meta name="description" content="Software developer."/>
             </head>
             <body>
                 <App/>
