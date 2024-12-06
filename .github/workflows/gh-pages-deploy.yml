@@ -61,7 +61,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist dir
-          path: './target'
+          path: './target/site'
 
       - name: Deploy to GitHub Pages 🚀
         id: deployment
