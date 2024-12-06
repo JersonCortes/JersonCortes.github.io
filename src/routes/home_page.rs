@@ -1,4 +1,14 @@
-use leptos::*;
+use leptos::prelude::*;
+
+#[component]
+pub fn HomePage() -> impl IntoView {
+
+    view! {
+        <About/>
+        <Projects/>
+        <Recent_blogs/>
+    }
+}
 
 #[component]
 fn About() -> impl IntoView {
@@ -6,7 +16,7 @@ fn About() -> impl IntoView {
         <h2>About me</h2>
         <hr/>
         <p>
-            "I am a software engineer who enjoys low level programming as well as understanding complex systems with 1 year of experience as a Data Analyst using Python with a European team. I'm interested on following my passion with low level programming. Since more than two years ago I've been using Linux in my home servers as well as for multiple projects. Since more than 2 years ago I commited to using Linux as my daily operating system. Right now I'm focused in c/c++ and Linux kernel development related opportunities."
+            "Software developer and Data analyst."
         </p>
 
     }
@@ -41,14 +51,5 @@ fn Recent_blogs() -> impl IntoView {
         <p>
             Working on my first kernel patch.
         </p>
-    }
-}
-
-#[component]
-pub fn Main() -> impl IntoView {
-    view! {
-        <About/>
-        <Projects/>
-        <Recent_blogs/>
     }
 }

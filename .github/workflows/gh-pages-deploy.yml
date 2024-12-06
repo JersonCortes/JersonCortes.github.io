@@ -54,14 +54,6 @@ jobs:
         # will obviously return error 404 not found.
         run: ./trunk build --release --public-url "./"
 
-
-      # Deploy to gh-pages branch
-      # - name: Deploy 🚀
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: dist
-
-
       # Deploy with Github Static Pages
 
       - name: Setup Pages

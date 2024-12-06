@@ -1,4 +1,4 @@
-use leptos::*;
+use leptos::prelude::*;
 
 #[component]
 pub fn Sidebar() -> impl IntoView {
@@ -11,10 +11,10 @@ pub fn Sidebar() -> impl IntoView {
             </div>
             <div class="icons">
                 <a href="https://www.linkedin.com/in/jerson-cortes-p" target="_blank">
-                    <img src="/assets/linkedin.svg" alt="LinkedIn"/>
+                    <img src="linkedin.svg" alt="LinkedIn"/>
                 </a>
                 <a href="https://github.com/JersonCortes" target="_blank">
-                    <img src="/assets/github.svg" alt="Github"/>
+                    <img src="github.svg" alt="Github"/>
                 </a>
             </div>
         </div>
