@@ -23,9 +23,6 @@ a {
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
-  @include for-phone-only {
-    width: 100%;
-  }
 }
 .text-container {
 	padding: 20px;
