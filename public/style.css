@@ -26,12 +26,13 @@ body, html {
 }
 h2 {
 	font-family: "Junicode Italic", sans-serif;
-	font-size:72px;
+	font-size:5rem;
+  font-weight: 600;
 }
 p {
   font-optical-sizing: auto;
-	font-size:36px;
-  /*color: #d1cfc0;*/
+	font-size:1.5rem;
+  color: #d1cfc0;
 }
 a {
 	color: #8DA3B9; 
@@ -42,4 +43,7 @@ a {
   justify-content: center; /* Vertically center */
   align-items: center;     /* Horizontally center */
   height: 100vh;           /* Full viewport height */
+}
+.highlight {
+    color: rgb(199, 86, 78)
 }
