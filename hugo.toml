@@ -5,7 +5,9 @@ defaultContentLanguage = "en-us"
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 ############################## English language ################################
 [Languages.en-us]
   languageName = "English"
@@ -28,7 +30,7 @@ defaultContentLanguage = "en-us"
     weight = 20
   [[Languages.en-us.menu.main]]
     pageRef="about"
-    name = 'About'
+    name = 'About me'
     url = '/about/'
     weight = 30
 
