@@ -9,7 +9,7 @@ author: Jerson Cortes
 Soy un ingeniero de software que disfruta de entender sistemas complejos y simplificar procesos lo más posible. Siempre me vas a encontrar aprendiendo algo nuevo y probándolo lo más pronto que pueda.
 
 
-## Coding languages
+## Lenguajes de programación
 
 Avanzado:
 * C
