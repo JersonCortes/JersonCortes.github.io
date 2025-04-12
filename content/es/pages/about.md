@@ -1,5 +1,5 @@
 ---
-title: Sobre mi
+title: Sobre mí
 description: 'Historia, valores e intereses de Jerson'
 author: Jerson Cortes
 ---
@@ -8,49 +8,64 @@ author: Jerson Cortes
 
 Soy un ingeniero de software que disfruta de entender sistemas complejos y simplificar procesos lo más posible. Siempre me vas a encontrar aprendiendo algo nuevo y probándolo lo más pronto que pueda.
 
+## Desarrollo de software
+### Lenguajes de programación:
 
-## Lenguajes de programación
+| Avanzado | Competente | Básico |
+|----------|----------|----------|
+| C    | Javascript | LUA |
+| C++  | Assembly | GO  |
+| Python  | | |
+| Rust | | |
 
-Avanzado:
-* C
-* C++ 
-* Python
-* Rust
+### Marcado, hojas de estilo & serialización de datos:
 
-Competente:
+| Serialización de datos | Marcado | Hojas de estilo |
+|----------|----------|--------------|
+| JSON | HTML | CSS |
+| XML | | Sass |
+| YAML | |
 
-* Javascript
-* LUA
+### Bases de datos
 
-Básico:
-* GO
+| Relacional | No-relacional |
+|----------|----------|
+| MySQL    | MongoDB |
+| SQLite | |
+| PostgreSQL | |
 
-## Tecnologías
+### Frameworks & librerías:
 
-### Sistemas operativos y distribuciones:
+| Javascript | Rust | C | C++ |
+|----------|----------|-------|---|
+| Node.JS | Iced | GTK | GTK |
+| Bootstrap | Yew | Vulkan | Qt |
+| ExpressJS | Leptos | | Vulkan |
 
-Linux:
 
-* Ubuntu
-* Ubuntu server
-* Archlinux
-* Proxmox
+### Data science & machine learning
 
-FreeBSD:
+| Data science | Machine Learning |
+|----------|----------|
+| Numpy | CUDA |
+| Pandas | ROCm |
+| Jupyter | HIP |
+| Pytorch | Pytorch |
+| TensorFlow | TensorFlow |
 
-* OPNsense
+## Tecnologías 
+### Sistemas operativos & distribuciones:
 
-### Contenerización
+| Linux | FreeBSD |
+|----------|----------|
+| Ubuntu | OPNsense |
+| Ubuntu server | |
+| Proxmox | |
+| Archlinux | |
 
-Motores:
+### Contenerización & CI/CD:
 
-* Docker
-* Podman
-
-Orquestración:
-
-* Kubernetes
-
-Contenedores de nivel sistema:
-
-* LXC
+| Motores | Orquestación | CI/CD | Contenedores de nivel sistema |
+|----------|----------|----------|---------|
+| Docker | Kubernetes | Jenkins | LXC/LXD |
+| Podman | | | |
