@@ -93,7 +93,7 @@ defaultContentLanguage = "en-us"
     weight = 20
   [[Languages.es-mx.menu.main]]
     pageRef="about"
-    name = 'Sobre mi'
+    name = 'Sobre mí'
     url = '/about/'
     weight = 30
 
