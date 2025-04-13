@@ -21,7 +21,7 @@
 
 ## ERRORS ##
 - id: "errors.404"
-  translation: "404 NOT FOUND"
+  translation: "404 NO ENCONTRADO"
 
 - id: "errors.404_description"
   translation: "Esta ruta no existe."
